@@ -13,6 +13,8 @@
 		1A6DDC1723CC5D67002C97BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DDC1523CC5D67002C97BB /* Main.storyboard */; };
 		1A6DDC1923CC5D68002C97BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DDC1823CC5D68002C97BB /* Assets.xcassets */; };
 		1A6DDC1C23CC5D68002C97BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DDC1A23CC5D68002C97BB /* LaunchScreen.storyboard */; };
+		1A6DDC2523CC5D8B002C97BB /* PolygonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DDC2423CC5D8B002C97BB /* PolygonView.swift */; };
+		1A6DDC2823CC5E02002C97BB /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DDC2723CC5E02002C97BB /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A6DDC1823CC5D68002C97BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6DDC1B23CC5D68002C97BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6DDC1D23CC5D68002C97BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6DDC2423CC5D8B002C97BB /* PolygonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonView.swift; sourceTree = "<group>"; };
+		1A6DDC2723CC5E02002C97BB /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		1A6DDC0E23CC5D66002C97BB /* PolygonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A6DDC2623CC5DE6002C97BB /* Helper */,
+				1A6DDC2323CC5D70002C97BB /* Polygon */,
 				1A6DDC0F23CC5D66002C97BB /* AppDelegate.swift */,
 				1A6DDC1123CC5D66002C97BB /* SceneDelegate.swift */,
 				1A6DDC1323CC5D66002C97BB /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				1A6DDC1D23CC5D68002C97BB /* Info.plist */,
 			);
 			path = PolygonDemo;
+			sourceTree = "<group>";
+		};
+		1A6DDC2323CC5D70002C97BB /* Polygon */ = {
+			isa = PBXGroup;
+			children = (
+				1A6DDC2423CC5D8B002C97BB /* PolygonView.swift */,
+			);
+			path = Polygon;
+			sourceTree = "<group>";
+		};
+		1A6DDC2623CC5DE6002C97BB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1A6DDC2723CC5E02002C97BB /* Tools.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				1A6DDC1423CC5D66002C97BB /* ViewController.swift in Sources */,
 				1A6DDC1023CC5D66002C97BB /* AppDelegate.swift in Sources */,
 				1A6DDC1223CC5D66002C97BB /* SceneDelegate.swift in Sources */,
+				1A6DDC2523CC5D8B002C97BB /* PolygonView.swift in Sources */,
+				1A6DDC2823CC5E02002C97BB /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
